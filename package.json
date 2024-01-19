@@ -1,0 +1,27 @@
+{
+  "name": "use-input-easy",
+  "version": "1.0.0",
+  "description": "A input validation and change handler custom hook",
+  "main": "use-input.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ali-sevinc/use-input.git"
+  },
+  "keywords": [
+    "input",
+    "validation"
+  ],
+  "author": "ali-sevinç",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ali-sevinc/use-input/issues"
+  },
+  "homepage": "https://github.com/ali-sevinc/use-input#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
