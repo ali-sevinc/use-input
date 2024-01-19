@@ -4,7 +4,7 @@ A custom hook for React to use input change and validation handler.
 
 ## Instalation
 
-npm install @use-input
+npm install use-input-easy
 
 ## How to use
 
