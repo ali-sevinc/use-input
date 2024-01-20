@@ -32,7 +32,7 @@ export default function useInput(
     const emailRegex = /^\S+@\S+\.\S+$/;
     isValueValid = emailRegex.test(value);
   } else if (validationArguments.isNum) {
-    isValueValid = isNaN(+value);
+    isValueValid = !isNaN(+value);
   } else if (
     validationArguments?.minLength &&
     validationArguments?.minLength > 0
