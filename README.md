@@ -11,13 +11,15 @@ npm install use-input-easy
 This hook return an array with two elements.
 
 First Element (values): An object contained "value, isValueValid, inputIsInvalid"
-value -> Input value
-isValueValid -> A boolean variable derived by value returned with your validationFunction
-inputIsInvalid -> A boolean variable that indicates whether there is a validation error when it onBlur.
+
+  * value -> Input value
+  * isValueValid -> A boolean variable derived by value returned with your validationFunction
+  * inputIsInvalid -> A boolean variable that indicates whether there is a validation error when it onBlur.
 
 Second Element (setFunctions): An object contained "handleBlur, handleChange"
-handleBlur -> Check if the input blur or not.
-handleChange -> Input value change handler.
+
+  * handleBlur -> Check if the input blur or not.
+  * handleChange -> Input value change handler.
 
 ### Example
 ```typescript
@@ -119,8 +121,8 @@ export default function Form() {
 
 ## Check values
 
-isEmail -> true or undefined
-isNum -> true or undefined
-minLength -> number or undefined
-maxLength -> number or undefined
-ownFunction -> (value: string) => boolean;
+  * isEmail -> true or undefined
+  * isNum -> true or undefined
+  * minLength -> number or undefined
+  * maxLength -> number or undefined
+  * ownFunction -> (value: string) => boolean;
