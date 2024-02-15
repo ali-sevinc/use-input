@@ -22,6 +22,8 @@
   "homepage": "https://github.com/ali-sevinc/use-input#readme",
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "jest-environment-jsdom": "^29.7.0",   
+    "ts-node": "^10.9.2"
   }
 }
