@@ -1,6 +1,6 @@
 {
   "name": "use-input-easy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A input validation and change handler custom hook",
   "main": "use-input.ts",
   "scripts": {
